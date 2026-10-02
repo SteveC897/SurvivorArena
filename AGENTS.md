@@ -34,9 +34,12 @@
 
 ## 四、项目背景
 
-- 引擎：Godot 4.7（Mono / .NET 版本），渲染方式为 GL Compatibility，Windows 下使用 D3D12 驱动。
+- 项目定位、引擎版本、复刻目标与视觉方向等「项目的其他相关内容」，统一到 `Docs/` 目录下的文档中查看（入口：`Docs/00-profile.md`）。开始任务前应先阅读相关文档，涉及项目方向的问题以文档记载为准。
+- `Docs-Archived/` 存放已废弃或被取代的历史资料（如 `Docs-Archived/01-hd2d-style.md` 与 `Docs-Archived/八方旅人截图/`）：只作留档，**不代表当前方向**，不要据此改动项目设置、场景或实现方案。
+- 运行时环境：Mono / .NET 版本，渲染方式为 GL Compatibility，Windows 下使用 D3D12 驱动。
 - 主场景：`res://Scenes/MainGame.tscn`；程序集名称：`VSLikeHD2D`。
 - 项目处于早期阶段，目录约定（脚本目录、资源目录）尚未固定；新增顶层目录前应先与开发者确认。
+- 新增或更新文档时，放在 `Docs/` 目录下并按 `NN-名称.md` 的序号前缀命名。
 
 ## 五、提交与沟通
 
